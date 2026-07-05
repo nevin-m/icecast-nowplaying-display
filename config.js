@@ -30,7 +30,7 @@ const STREAM_HOST_TYPE = "caster";
 // The JSON stats endpoint for your stream host (Caster.fm only —
 // ignored if STREAM_HOST_TYPE is "live365").
 // For Caster.fm this looks like:
-//   https://<yourserver>.caster.fm:<port>/admin/publicstats.json
+//   https://sapircast.caster.fm:13325/admin/publicstats.json
 const STATS_URL        = "https://your-stream-host.example.com:8000/admin/publicstats.json";
 
 // --- LIVE365 SETTINGS (EXPERIMENTAL, only used if STREAM_HOST_TYPE = "live365") ---
