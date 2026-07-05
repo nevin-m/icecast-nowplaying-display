@@ -1,4 +1,4 @@
-# Icecast / Caster.fm Now Playing Display
+# Icecast / Caster.fm / Live365 Now Playing Display
 
 A lightweight, single-page "Now Playing" display for internet radio stations on **Caster.fm** (fully supported) or **Live365** (experimental — see below). It polls your stream host for the current track, looks up cover art via the iTunes Search API, and shows a full-screen display with the album art (blurred as a background), song title, and artist — perfect for a lobby TV, OBS overlay, or embedding on your station's website.
 
