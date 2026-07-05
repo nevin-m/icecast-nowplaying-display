@@ -43,7 +43,7 @@ The display shows:
    |---|---|
    | `STATION_NAME` | Your station's name (e.g. `"WBAB 102.3FM"`). Set this once — it automatically fills in `ID_MODE_TEXT`, `HEADER_STATIC_TEXT`, `HEADER_SCROLLING_TEXT`, and the browser tab title for you, so you don't have to repeat it everywhere. |
    | `STREAM_HOST_TYPE` | `"caster"` (default, fully supported) or `"live365"` (experimental — see [Live365 support](#live365-support-experimental) below) |
-   | `STATS_URL` | The JSON stats URL for your Caster.fm stream, e.g. `https://<yourserver>.caster.fm:<port>/admin/publicstats.json` (only used when `STREAM_HOST_TYPE` is `"caster"`) |
+   | `STATS_URL` | The JSON stats URL for your Caster.fm stream, e.g. `https://sapircast.caster.fm:13335/admin/publicstats.json` (only used when `STREAM_HOST_TYPE` is `"caster"`) |
    | `HEADER_STATIC_TEXT` / `HEADER_SCROLLING_TEXT` | Header banner text — defaults to using `STATION_NAME`, but can be overridden individually with your own wording (e.g. to add a phone number or call letters) |
    | `ID_MODE_TEXT` | Text shown when a station ID/jingle is playing instead of a song — also defaults to using `STATION_NAME` |
    | `ID_KEYWORDS` | Optional list of keywords (e.g. `"Station ID"`, `"Jingle"`) that identify a station ID/jingle by name. When matched, shows `placeholder.jpg` on a blank background instead of the logo. |
